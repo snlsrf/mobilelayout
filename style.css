@@ -1,0 +1,25 @@
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+  margin: 0px;
+  padding: 0px;
+}
+
+main{
+    overflow-y: scroll;
+    flex-grow: 1;
+    text-align: center;
+}
+
+header, footer{
+  flex-shrink: 0;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
